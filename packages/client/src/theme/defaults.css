@@ -312,6 +312,8 @@ html {
   --theme-text-xl-leading: calc(1.75 / 1.25);
   --theme-text-2xl: 1.5rem;
   --theme-text-2xl-leading: calc(2 / 1.5);
+  --theme-text-3xl: 1.875rem;
+  --theme-text-3xl-leading: calc(2.25 / 1.875);
   /* Roboto Mono is self-hosted (the `@font-face` block below), so code renders the same on every
    * platform with real bold and italic faces. The tail is reached while the font loads, if it
    * fails, and per glyph for what the bundled latin subset omits (box drawing in terminal output

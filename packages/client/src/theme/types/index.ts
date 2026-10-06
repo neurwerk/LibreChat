@@ -680,12 +680,14 @@ export interface IThemeAppearance {
   textLg: string;
   textXl: string;
   text2xl: string;
+  text3xl: string;
   leadingXs: string;
   leadingSm: string;
   leadingBase: string;
   leadingLg: string;
   leadingXl: string;
   leading2xl: string;
+  leading3xl: string;
   /**
    * An OGDialog's edge stroke width (painted in `border-light`), inline padding and title to
    * description gap, and its title's size, leading, weight and family. The title follows `textLg`
