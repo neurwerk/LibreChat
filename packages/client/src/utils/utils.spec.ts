@@ -15,4 +15,11 @@ describe('cn', () => {
   ])('lets a caller size replace %s', (role, caller) => {
     expect(cn(role, caller)).toBe(caller);
   });
+
+  it.each(['px-0', 'px-3', 'px-theme-control-x'])(
+    'lets %s replace the Button padding role',
+    (caller) => {
+      expect(cn('px-theme-button-x', caller)).toBe(caller);
+    },
+  );
 });
